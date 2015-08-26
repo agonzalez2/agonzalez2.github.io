@@ -22,3 +22,8 @@ body {
     padding:10px;
     margin:10px;
 }
+
+#space {
+    display:block;
+    margin:0auto;
+}
