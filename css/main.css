@@ -25,5 +25,7 @@ body {
 
 #space {
     display:block;
-    margin:0auto;
+    margin: 0 auto;
+    max-height:70%;
+    max-width:70%;
 }
