@@ -12,6 +12,10 @@ body {
     color:white;
 }
 
+.nav {
+    border-radius:5px;
+}
+
 .nav li {
     display:inline;
     margin-left:10px;
@@ -19,6 +23,7 @@ body {
     background-color:#2f4f4f;
     color:white;
 }
+
 
 .foot {
     background-color:#4f4f4f;
