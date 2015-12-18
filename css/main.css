@@ -1,41 +1,115 @@
 body {
-    background-color: gray;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #4f4f4f;
+	background-image: url(assets/arnoriver.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
 }
+
+main{
+	padding:20px;
+	margin-left:150px;
+    background-color: rgba(63,105,63,0.6);
+}
+
+.links {
+    list-style-type: none;
+}
+
+.links a:link {color: white}
+.links a:visited {color: white}
+.links a:hover {color: #3F693F}
+
 
 .container {
     padding: 10px;
-    margin-top:50px;
-    margin-bottom:50px;
-    margin-right:50px;
-    margin-left:50px;
-    background-color: #a9a9a9;
+    margin:50px;
     color:white;
+	min-width: 750px;
+    background-color: rgba(132,78,78,.8);
 }
 
-.nav {
+
+
+nav {
+	float: left;
     border-radius:5px;
+	text-align: center;
+	width: auto;
+	padding: 5px;
 }
 
-.nav li {
-    display:inline;
-    margin-left:10px;
-    padding:10px;
-    background-color:#2f4f4f;
-    color:white;
+nav ul {
+	list-style-type:none;
+}
+
+nav li {
+    padding-top:5px;
+}
+
+nav a:link {
+    color: white; 
+    text-decoration:none;
+}
+nav a:visited {
+    color: white;
+    text-decoration:none;
+}
+nav a:hover {
+    color: #3F693F;
+    text-decoration:none;
 }
 
 
 .foot {
-    background-color:#4f4f4f;
     color:white;
     padding:10px;
-    margin:10px;
+    margin:5px;
     text-align:center;
+    clear: both;
+    background-color: #672E2E
 }
 
-#space {
-    display:block;
-    margin: 0 auto;
-    max-height:70%;
-    max-width:70%;
+.foot a:link {
+    color: white; 
+    text-decoration:none;
+}
+
+.floatleft {
+	float:left;
+	padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.clear {
+    clear:both
+}
+
+.small {
+	width:80%;
+	margin: auto;
+	border-bottom: double blue 5px;
+	border-top: double blue 5px;
+	border-collapse: collapse;
+}
+
+.small tr:nth-of-type(even) {
+	background-color: #672E2E;
+	border-bottom: dotted blue 3px;
+	text-align: center;
+}
+
+.small tr:nth-of-type(odd) {
+	background-color: rgb(25,105,25);;
+	border-bottom: dotted blue 3px;
+	text-align: center;
+}
+
+
+.small th {
+	background-color:gray;
+	border-bottom: double blue 5px;
 }
