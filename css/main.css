@@ -3,7 +3,7 @@ body {
     margin-left:auto;
     margin-right:auto;
     background-color: #4f4f4f;
-	background-image: url(assets/arnoriver.jpg);
+    background-image: url(../assets/arnoriver.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
